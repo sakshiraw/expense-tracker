@@ -543,6 +543,18 @@ function App() {
 
             <Legend />
         </PieChart>
+<footer
+  style={{
+    textAlign: "center",
+    marginTop: "40px",
+    padding: "20px",
+    color: "#666",
+    fontSize: "14px",
+    borderTop: "1px solid #ddd"
+  }}
+>
+  Built by <strong>Sakshi Rawat</strong> • React • Express • SQLite
+</footer>
     </div>
 );
 }
@@ -574,6 +586,8 @@ function Card({
             >
                 {value}
             </p>
+
+
         </div>
     );
 }
