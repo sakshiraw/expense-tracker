@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker-server",
+  "version": "1.0.0",
+  "description": "Expense Tracker Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "expense-tracker",
+    "express",
+    "sqlite"
+  ],
+  "author": "Abhay",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
