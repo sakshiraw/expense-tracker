@@ -8,7 +8,8 @@ import {
     Legend
 } from "recharts";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL =
+  "https://expense-tracker-api-f73a.onrender.com/api";
 
 function App() {
 
