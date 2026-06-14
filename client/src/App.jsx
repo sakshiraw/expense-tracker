@@ -554,7 +554,7 @@ function App() {
     borderTop: "1px solid #ddd"
   }}
 >
-  Built by <strong>Sakshi Rawat</strong> • React • Express • SQLite
+  Built by <strong>Sakshi</strong> • React • Express • SQLite
 </footer>
     </div>
 );
